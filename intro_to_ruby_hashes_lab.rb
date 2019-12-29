@@ -1,5 +1,7 @@
 def base_hash
-    monopoly = {}
+    monopoly = {
+      key1: "first key"
+    }
 end
 
 def monopoly_with_second_tier

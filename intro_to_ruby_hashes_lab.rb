@@ -19,6 +19,7 @@ def monopoly_with_third_tier
         pieces: 4,
         rent_in_dollars: {:key1 => "one",:key2 => "two",:key3 => "three",:key4 => "four"},
         names: {:key1 => "one",:key2 => "two",:key3 => "three",:key4 => "four"}
+        one_piece_owned: {:fee => 25 } 
       }
  }
 end

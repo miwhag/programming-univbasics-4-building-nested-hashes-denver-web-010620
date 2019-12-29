@@ -6,8 +6,9 @@ end
 
 def monopoly_with_second_tier
     monopoly = {
-      pieces: {}
+      railroads: {}
     }
+    monopoly_with_second_tier[:monopoly][:railroads] = :pieces 
 end
 
 def monopoly_with_third_tier

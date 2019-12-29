@@ -18,6 +18,7 @@ def monopoly_with_third_tier
       railroads: {
         pieces: 4,
         rent_in_dollars: {:key1 => "one",:key2 => "two",:key3 => "three",:key4 => "four"}
+        names: {}
       }
  }
 end
